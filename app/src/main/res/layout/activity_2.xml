@@ -33,21 +33,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.1"
-            android:text="Java" />
+            android:text="Java"
+            tools:text="Java" />
 
         <CheckBox
             android:id="@+id/cbAndroid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.1"
-            android:text="Android" />
+            android:text="Android"
+            tools:text="Android" />
 
         <CheckBox
             android:id="@+id/cbCs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.1"
-            android:text="C#" />
+            android:text="C#"
+            tools:text="C#" />
 
         <TextView
             android:id="@+id/textView2"

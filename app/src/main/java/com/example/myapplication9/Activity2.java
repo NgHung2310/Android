@@ -47,7 +47,8 @@ public class Activity2 extends Activity {
         cbCs = (CheckBox)findViewById(R.id.cbCs);
         rbtnFemale = (RadioButton) findViewById(R.id.rbtnFemale);
         rbtnMale = (RadioButton) findViewById(R.id.rbtnMale);
-        lstCb.add(cbAndroid);
+        lstCb=new LinkedList<CheckBox>();
+        lstCb.add(cbJava);
         lstCb.add(cbCs);
         lstCb.add(cbAndroid);
 
@@ -69,8 +70,8 @@ public class Activity2 extends Activity {
                     }
                 }
         );
-        btnSubmit = (Button)findViewById(R.id.btnBack);
-        btnBack.setOnClickListener(
+        btnSubmit = (Button)findViewById(R.id.btnSubmit);
+        btnSubmit.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
